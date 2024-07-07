@@ -22,7 +22,7 @@ function Banner() {
                     <button className="banner__button">My List</button>
                 </div>
                 <h1 className="banner__description">
-                    {truncateString(`Test Description lorem ipsum dum plorem lorem`, 150)}
+                    {truncateString(`Test Description`, 150)}
                 </h1>
             </div>
             <div className="banner--fadeBottom" />

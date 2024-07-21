@@ -19,7 +19,8 @@ function ProfileScreen() {
           <div className='profileScreen__details'>
             <h2>{user.email}</h2>
             <div className='profileScreen__plans'>
-              <h3>Plans</h3>
+              <h3>Description</h3>
+              <p>I am Utkarsh Mandal, and I have developed a Netflix UI clone using React-Redux and Firebase Authentication. This application allows users to log in and log out securely. It leverages the TMDB API to fetch and display movies, providing an experience similar to Netflix.</p>
               <button onClick={() => auth.signOut()} className='profileScreen__signOut'>Sign Out</button>
             </div>
           </div>
